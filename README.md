@@ -9,8 +9,8 @@ This Bash script helps you delete multiple log groups in a specified AWS region 
 
 ## Usage
 
-```bash
-./script_name.sh
+```
+./delete-cw-log-groups.sh
 ```
 
 The script will prompt you to enter the AWS region for which you want to delete the log groups. The default region is `ap-southeast-2`. After entering the region, the script will display the log groups that will be deleted, and you will be asked to confirm the deletion.
